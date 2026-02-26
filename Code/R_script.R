@@ -27,11 +27,11 @@ plot(giorgia, sonia, col="blue", pch=19, cex=2, xlab="pollution", ylab="numero d
 
 #installazione pacchetti 
 #CRAN 
-intall.packages("terra")
+install.packages("terra")
 library(terra) 
 
 #GitHUB 
-intall.packages("devtools") #remote
+install.packages("devtools") #remote
 library(devtools) #remote
 install_github("AliRed7/imageRy")
 
